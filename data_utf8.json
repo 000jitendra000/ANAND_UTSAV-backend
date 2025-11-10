@@ -1,0 +1,1235 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "api",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "api",
+        "model": "image"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "api",
+        "model": "review"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kn2ifkqvuyneac5a4t27yrjfcl7oe6zy",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFAebp07zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsjOT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGvHel5Ody_gwqjfuugLGgfHPggjS4mU_EqgAnJpiy1EDhN0oEULlFWpDHb4rGQN0UoFJq9P9LEN9s:1v6SGw:RdtJUEwk4XcrEkjEH5d3aUQaCiOeIRu_0LNyCfylspg",
+        "expire_date": "2025-10-22T11:23:54.416Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 27,
+    "fields": {
+        "name": "Website Development",
+        "categoryId": 5,
+        "price": 20000,
+        "priceInfo": "Starts at Γé╣20,000",
+        "rating": 4.9,
+        "description": "Responsive and modern websites designed for businesses and startups, focusing on performance and user experience."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 29,
+    "fields": {
+        "name": "Content Writing",
+        "categoryId": 6,
+        "price": 50,
+        "priceInfo": "Starts at Γé╣50 per 50 words",
+        "rating": 4.8,
+        "description": "Engaging, SEO-friendly blogs, articles, and high-conversion copywriting for brands and websites."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 31,
+    "fields": {
+        "name": "Interior Design",
+        "categoryId": 7,
+        "price": 50000,
+        "priceInfo": "Starts at Γé╣50,000",
+        "rating": 4.9,
+        "description": "Modern, functional, and aesthetic home and office interiors designed to reflect your personal style."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 32,
+    "fields": {
+        "name": "Fitness Coaching",
+        "categoryId": 7,
+        "price": 2000,
+        "priceInfo": "Starts at Γé╣2,000/month",
+        "rating": 4.8,
+        "description": "Personalized fitness and diet plans with expert trainers to help you achieve your health and wellness goals."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 34,
+    "fields": {
+        "name": "Music Lessons",
+        "categoryId": 8,
+        "price": 1000,
+        "priceInfo": "Starts at Γé╣1,000/session",
+        "rating": 4.7,
+        "description": "Learn guitar, piano, or vocals with expert musicians through personalized, one-on-one sessions."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 35,
+    "fields": {
+        "name": "Legal Consulting",
+        "categoryId": 9,
+        "price": 3000,
+        "priceInfo": "Starts at Γé╣3,000/hour",
+        "rating": 4.9,
+        "description": "Professional legal advice for personal and business cases from experienced and certified attorneys."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 39,
+    "fields": {
+        "name": "Event Management",
+        "categoryId": 1,
+        "price": 30000,
+        "priceInfo": "Starts at Γé╣30,000",
+        "rating": 4.7,
+        "description": "Complete wedding, party, and corporate event planning. We handle everything from venue selection to vendor coordination."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 101,
+    "fields": {
+        "name": "Royal Catering",
+        "categoryId": 1,
+        "price": 25000,
+        "priceInfo": "Starts at Γé╣25,000",
+        "rating": 4.8,
+        "description": "Exquisite culinary experiences for weddings, corporate events, and private parties, featuring diverse menus and professional service."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 102,
+    "fields": {
+        "name": "Sweet Cravings",
+        "categoryId": 1,
+        "price": 30000,
+        "priceInfo": "Starts at Γé╣30,000",
+        "rating": 4.6,
+        "description": "Artisanal desserts, custom cakes, and gourmet sweet tables that provide a memorable final course for any celebration."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 104,
+    "fields": {
+        "name": "talking",
+        "categoryId": 10,
+        "price": 1000,
+        "priceInfo": "start from 1000",
+        "rating": 4.0,
+        "description": "timepass"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 201,
+    "fields": {
+        "name": "Snapshot Crew",
+        "categoryId": 3,
+        "price": 40000,
+        "priceInfo": "From Γé╣40,000",
+        "rating": 4.7,
+        "description": "A team of creative photographers and videographers dedicated to capturing the essence of your most important moments."
+    }
+},
+{
+    "model": "api.product",
+    "pk": 301,
+    "fields": {
+        "name": "Event Decor Masters",
+        "categoryId": 2,
+        "price": 20000,
+        "priceInfo": "Packages from Γé╣20,000",
+        "rating": 4.5,
+        "description": "Transforming venues with breathtaking floral arrangements, lighting, and thematic decor for an unforgettable ambiance."
+    }
+},
+{
+    "model": "api.image",
+    "pk": 1,
+    "fields": {
+        "product": 101,
+        "url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 2,
+    "fields": {
+        "product": 101,
+        "url": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 3,
+    "fields": {
+        "product": 101,
+        "url": "https://images.unsplash.com/photo-1565299585323-15d11e383435?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 4,
+    "fields": {
+        "product": 101,
+        "url": "https://images.unsplash.com/photo-1522239332085-c088a536f663?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 5,
+    "fields": {
+        "product": 102,
+        "url": "https://images.unsplash.com/photo-1543353071-873f17a7a088?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 6,
+    "fields": {
+        "product": 102,
+        "url": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 7,
+    "fields": {
+        "product": 102,
+        "url": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 8,
+    "fields": {
+        "product": 102,
+        "url": "https://images.unsplash.com/photo-1579306240954-3ace2a93169e?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 9,
+    "fields": {
+        "product": 201,
+        "url": "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 10,
+    "fields": {
+        "product": 201,
+        "url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 11,
+    "fields": {
+        "product": 201,
+        "url": "https://images.unsplash.com/photo-1542042161-d703d15d7821?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 12,
+    "fields": {
+        "product": 301,
+        "url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 13,
+    "fields": {
+        "product": 301,
+        "url": "https://images.unsplash.com/photo-1487452066049-a710f7296405?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 14,
+    "fields": {
+        "product": 301,
+        "url": "https://images.unsplash.com/photo-1530023367373-358863d6e52r?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 15,
+    "fields": {
+        "product": 39,
+        "url": "https://images.unsplash.com/photo-1529634899794-9d3c3d0b61a6?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 16,
+    "fields": {
+        "product": 39,
+        "url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 17,
+    "fields": {
+        "product": 39,
+        "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 18,
+    "fields": {
+        "product": 31,
+        "url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 19,
+    "fields": {
+        "product": 31,
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 20,
+    "fields": {
+        "product": 31,
+        "url": "https://images.unsplash.com/photo-1567016432779-1fee84e83713?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 21,
+    "fields": {
+        "product": 27,
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 22,
+    "fields": {
+        "product": 27,
+        "url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 23,
+    "fields": {
+        "product": 27,
+        "url": "https://images.unsplash.com/photo-1559028006-44d081543144?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 24,
+    "fields": {
+        "product": 29,
+        "url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 25,
+    "fields": {
+        "product": 29,
+        "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 26,
+    "fields": {
+        "product": 29,
+        "url": "https://images.unsplash.com/photo-1488998427799-e3362cec87c3?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 27,
+    "fields": {
+        "product": 32,
+        "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 28,
+    "fields": {
+        "product": 32,
+        "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 29,
+    "fields": {
+        "product": 32,
+        "url": "https://images.unsplash.com/photo-1540496905036-5937c10647cc?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 30,
+    "fields": {
+        "product": 34,
+        "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 31,
+    "fields": {
+        "product": 34,
+        "url": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 32,
+    "fields": {
+        "product": 34,
+        "url": "https://images.unsplash.com/photo-1558556403-31a9a4c44934?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 33,
+    "fields": {
+        "product": 35,
+        "url": "https://images.unsplash.com/photo-1555374018-13a8994ab246?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 34,
+    "fields": {
+        "product": 35,
+        "url": "https://images.unsplash.com/photo-1590102426319-c72160152ce4?w=600&q=80"
+    }
+},
+{
+    "model": "api.image",
+    "pk": 35,
+    "fields": {
+        "product": 35,
+        "url": "https://images.unsplash.com/photo-1589216532372-1c2a36790239?w=600&q=80"
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev101-1",
+    "fields": {
+        "product": 101,
+        "author": "Priya Sharma",
+        "date": "2025-09-15",
+        "rating": 5.0,
+        "comment": "Absolutely phenomenal service for our wedding! The food was divine and the presentation was a work of art. Highly recommended!"
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev101-2",
+    "fields": {
+        "product": 101,
+        "author": "Rohan Gupta",
+        "date": "2025-08-02",
+        "rating": 4.0,
+        "comment": "Great food and professional staff. There was a slight delay in the main course, but they handled it well. Overall, a very good experience."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev101-3",
+    "fields": {
+        "product": 101,
+        "author": "Anjali Mehta",
+        "date": "2025-07-21",
+        "rating": 5.0,
+        "comment": "Royal Catering made our corporate event a huge success. Every dish was a hit with our international guests."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev102-1",
+    "fields": {
+        "product": 102,
+        "author": "Vikram Singh",
+        "date": "2025-09-05",
+        "rating": 5.0,
+        "comment": "The dessert table was the star of our reception. Everything looked and tasted incredible."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev102-2",
+    "fields": {
+        "product": 102,
+        "author": "Sunita Patil",
+        "date": "2025-07-18",
+        "rating": 4.0,
+        "comment": "Beautiful cake and delicious pastries. The delivery was a bit later than scheduled, but the quality made up for it."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev201-1",
+    "fields": {
+        "product": 201,
+        "author": "Deepak Kumar",
+        "date": "2025-08-25",
+        "rating": 5.0,
+        "comment": "The photos are stunning! They captured so many beautiful candid moments. The team was a joy to work with."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev201-2",
+    "fields": {
+        "product": 201,
+        "author": "Neha Desai",
+        "date": "2025-06-11",
+        "rating": 4.0,
+        "comment": "Very professional and talented photographers. We love our wedding album. Just wish the final video was delivered a bit sooner."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev27-1",
+    "fields": {
+        "product": 27,
+        "author": "Startup India",
+        "date": "2025-09-12",
+        "rating": 5.0,
+        "comment": "Delivered a fantastic, high-performance website on a tight deadline. The communication was excellent throughout the project."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev27-2",
+    "fields": {
+        "product": 27,
+        "author": "Local Biz",
+        "date": "2025-08-01",
+        "rating": 5.0,
+        "comment": "Our new e-commerce site is fast, beautiful, and easy to manage. Our sales have increased since the launch. A+"
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev29-1",
+    "fields": {
+        "product": 29,
+        "author": "Digital Agency",
+        "date": "2025-09-10",
+        "rating": 5.0,
+        "comment": "Consistently high-quality articles that are well-researched and delivered on time. Our go-to for all content needs."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev29-2",
+    "fields": {
+        "product": 29,
+        "author": "Fashion Blog",
+        "date": "2025-08-22",
+        "rating": 4.0,
+        "comment": "Great writing style that matches our brand voice. Sometimes requires a bit of editing, but overall very satisfied."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev301-1",
+    "fields": {
+        "product": 301,
+        "author": "Aisha Khan",
+        "date": "2025-09-01",
+        "rating": 5.0,
+        "comment": "They turned our simple hall into a fairytale setting. The attention to detail was impeccable."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev301-2",
+    "fields": {
+        "product": 301,
+        "author": "Rajesh Nair",
+        "date": "2025-08-10",
+        "rating": 4.0,
+        "comment": "The decor was beautiful. Communication could have been a bit better in the planning stages, but the final result was fantastic."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev31-1",
+    "fields": {
+        "product": 31,
+        "author": "Amit Trivedi",
+        "date": "2025-08-14",
+        "rating": 5.0,
+        "comment": "Transformed our apartment into a dream home. Their design sense is brilliant and they really listen to your needs."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev31-2",
+    "fields": {
+        "product": 31,
+        "author": "Meera Iyer",
+        "date": "2025-05-20",
+        "rating": 5.0,
+        "comment": "So happy with our new office space. It has boosted productivity and morale. A truly professional team."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev32-1",
+    "fields": {
+        "product": 32,
+        "author": "Aditya Roy",
+        "date": "2025-09-18",
+        "rating": 5.0,
+        "comment": "Lost 10 kgs in 3 months! The workout plan was tough but effective, and the diet was easy to follow. Amazing coach."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev32-2",
+    "fields": {
+        "product": 32,
+        "author": "Kavita Joshi",
+        "date": "2025-08-05",
+        "rating": 5.0,
+        "comment": "The online sessions are very convenient and motivating. My trainer is knowledgeable and supportive."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev34-1",
+    "fields": {
+        "product": 34,
+        "author": "Ishaan Verma",
+        "date": "2025-09-02",
+        "rating": 5.0,
+        "comment": "My guitar skills have improved so much in just a few months. The instructor is very patient and makes learning fun."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev34-2",
+    "fields": {
+        "product": 34,
+        "author": "Riya Das",
+        "date": "2025-07-16",
+        "rating": 4.0,
+        "comment": "Good vocal coaching. I have definitely seen an improvement in my range. Scheduling can sometimes be a bit tricky."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev35-1",
+    "fields": {
+        "product": 35,
+        "author": "Anand Enterprises",
+        "date": "2025-08-20",
+        "rating": 5.0,
+        "comment": "Clear, concise, and invaluable advice for our startup. Helped us navigate complex legal documentation with ease."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev35-2",
+    "fields": {
+        "product": 35,
+        "author": "Nikhil Rao",
+        "date": "2025-06-29",
+        "rating": 5.0,
+        "comment": "Provided excellent guidance for my property dispute. Very knowledgeable and professional."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev39-1",
+    "fields": {
+        "product": 39,
+        "author": "Sanjay Reddy",
+        "date": "2025-07-28",
+        "rating": 5.0,
+        "comment": "Made our wedding planning process completely stress-free. They are organized, creative, and professional."
+    }
+},
+{
+    "model": "api.review",
+    "pk": "rev39-2",
+    "fields": {
+        "product": 39,
+        "author": "Pooja Agarwal",
+        "date": "2025-06-03",
+        "rating": 5.0,
+        "comment": "Best decision we made! Our event was flawless from start to finish. Thank you!"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add product",
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change product",
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete product",
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view product",
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add image",
+        "content_type": [
+            "api",
+            "image"
+        ],
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change image",
+        "content_type": [
+            "api",
+            "image"
+        ],
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete image",
+        "content_type": [
+            "api",
+            "image"
+        ],
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view image",
+        "content_type": [
+            "api",
+            "image"
+        ],
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add review",
+        "content_type": [
+            "api",
+            "review"
+        ],
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change review",
+        "content_type": [
+            "api",
+            "review"
+        ],
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete review",
+        "content_type": [
+            "api",
+            "review"
+        ],
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view review",
+        "content_type": [
+            "api",
+            "review"
+        ],
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$KqjSim8QvVOeUXAIj5jPkF$LrSpzqLhWIaP6plD4w++Nn4sOWJnDOqJoo5vpFEWKJs=",
+        "last_login": "2025-10-08T11:23:54.413Z",
+        "is_superuser": true,
+        "username": "000jitendra000",
+        "first_name": "",
+        "last_name": "",
+        "email": "ronankijitendra5@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-10-08T04:23:31.882Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-10-08T11:27:55.661Z",
+        "user": [
+            "000jitendra000"
+        ],
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "object_id": "302",
+        "object_repr": "watch (302)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-10-08T13:53:04.832Z",
+        "user": [
+            "000jitendra000"
+        ],
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "object_id": "302",
+        "object_repr": "watch (302)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-10-08T13:53:04.832Z",
+        "user": [
+            "000jitendra000"
+        ],
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "object_id": "301",
+        "object_repr": "Event Decor Masters (301)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-10-13T07:53:30.468Z",
+        "user": [
+            "000jitendra000"
+        ],
+        "content_type": [
+            "api",
+            "product"
+        ],
+        "object_id": "104",
+        "object_repr": "talking (104)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
