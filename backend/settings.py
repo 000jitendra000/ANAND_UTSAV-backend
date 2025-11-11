@@ -133,3 +133,9 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+
+ALLOWED_HOSTS = [
+    'anand-utsav-backend.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
